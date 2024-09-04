@@ -1,0 +1,51 @@
+header{
+    background-color: #59EB5B;
+}
+
+header nav img{
+    height: 60px;
+}
+
+nav{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.carousel-caption h5 {
+    color: #000000; /* Cor do título */
+    font-size: 2rem; /* Tamanho do título */
+    text-shadow: 2px 2px 4px rgba(249, 249, 249, 0.5); /* Sombra no texto */
+}
+
+.carousel-caption p {
+    color: #000000; /* Cor da descrição */
+    font-size: 1.2rem; /* Tamanho da descrição */
+    text-shadow: 1px 1px 3px rgba(231, 231, 231, 0.5); /* Sombra no texto */
+}
+
+
+footer{
+    background-color: #59EB8C;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.imagen{
+    height: 30px;
+}
+
+.grid-footer{
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(3, 4fr);
+    
+    grid-template-areas: 
+    ". footer .";
+}

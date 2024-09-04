@@ -1,0 +1,37 @@
+header{
+    background-color: #59EB5B;
+}
+
+header nav img{
+    height: 60px;
+}
+
+nav{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #59EB8C;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.imagen{
+    height: 30px;
+}
+
+.grid{
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(3, 4fr);
+    
+    grid-template-areas: 
+    ". footer .";
+}

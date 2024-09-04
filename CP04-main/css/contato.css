@@ -1,0 +1,57 @@
+header{
+    background-color: #59EB5B;
+}
+
+header nav img{
+    height: 60px;
+}
+
+nav{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #59EB8C;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.imagen{
+    height: 30px;
+}
+.borda{
+    border-radius: 1px;
+    border-color: black;
+}
+main{
+    grid-area: main;
+}
+
+
+.grid{
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+    grid-template-areas:
+    "main main ." 
+    ". footer .";
+}
+
+@media screen and (min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        
+        "main main . ."
+        ". footer footer .";
+       
+    }
+}
