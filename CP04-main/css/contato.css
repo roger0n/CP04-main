@@ -24,6 +24,10 @@ footer a{
     text-decoration: none;
     color: black;
 }
+
+.footer{
+    
+}
 .imagen{
     height: 30px;
 }
@@ -31,7 +35,7 @@ footer a{
     border-radius: 1px;
     border-color: black;
 }
-main{
+.main{
     grid-area: main;
 }
 
@@ -41,7 +45,8 @@ main{
     grid-template-rows: repeat(6, 100px);
     gap: 10px;
     grid-template-areas:
-    "main main ." 
+    "main main ."
+    "none none none" 
     ". footer .";
 }
 
@@ -51,7 +56,20 @@ main{
         grid-template-areas: 
         
         "main main . ."
+        "none none none none"
         ". footer footer .";
+       
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 
+        
+        "main main main main . ."
+        "none none none none"
+        ". footer footer footer footer .";
        
     }
 }
