@@ -28,10 +28,7 @@ footer a{
 .imagen{
     height: 30px;
 }
-.borda{
-    border-radius: 1px;
-    border-color: black;
-}
+
 .main{
     grid-area: main;
 }
