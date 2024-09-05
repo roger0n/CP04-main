@@ -3,6 +3,7 @@ header{
 }
 
 header nav img{
+    padding: 10px;
     height: 60px;
 }
 
@@ -33,6 +34,7 @@ footer a{
     grid-area: main;
 }
 .borda{
+    padding: 10px;
     border: 1px solid black;
 }
 

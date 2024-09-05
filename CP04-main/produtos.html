@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="EcoTrend - E-commerce especializado em produtos sustentáveis e ecológicos.">
-    <title>Catálogo - EcoTrend</title>
-    <link rel="stylesheet" href="./css/catalogo.css">
+    <title>Produtos Sustentáveis - EcoTrend</title>
+    <link rel="shortcut icon" href="img/icon_eco.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/produtos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -41,18 +42,22 @@
             </div>
         </nav>
     </header>
+    <div class="container col-sm-6">
+        <h3 class="text-center">Detalhes sobre nossos produtos</h3>
+        <p class="text-center">Cada produto do nosso catálogo foi cuidadosamente selecionado para garantir qualidade, sustentabilidade e responsabilidade ambiental. Na seção abaixo, você encontrará informações detalhadas sobre os materiais utilizados, o processo de produção, e os benefícios de cada item para o meio ambiente. Saiba mais sobre as características exclusivas de cada produto e como eles podem contribuir para um estilo de vida mais saudável e consciente. Explore as opções, descubra novidades e faça a escolha certa para o planeta!</p>
+    </div>
 
 
-    <main>
+    <main class="align-middle">
         <!-- Seção de Produtos -->
         <section class="container my-5">
-            <h2 class="text-center sm-4">Roupas</h2>
+            
             <div class="row">
-                <!-- Produto 1 -->
-                <div class="col-sm-4 sm-4">
+                
+                <div class="col-sm-6 ">
                     <div class="card">
-                        <img src="./img/produtos_img/camiseta_algodao.webp" class="card-img-top"
-                            alt="Camisa de Algodão Orgânico">
+                        <img src="./img/produtos_img/camiseta_algodao.webp" id="camiseta" class="card-img-top"
+                            alt="Camiseta de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camiseta de Algodão Orgânico</h5>
                             <p class="card-text">Camiseta básica feita de 100% algodão orgânico.</p>
@@ -61,111 +66,115 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/camisa_algodao.webp" class="card-img-top"
+                        <img src="./img/produtos_img/camisa_algodao.webp" id="camisa" class="card-img-top"
                             alt="Camisa de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camisa de Algodão Orgânico</h5>
-                            <p class="card-text">Camisa básica feita de 100% algodão orgânico.</p>
+                            <p class="card-text">Feita de 100% algodão orgânico, essa camisa oferece conforto e estilo, sendo uma opção sustentável e livre de pesticidas. Ideal para quem busca roupas de alta qualidade e responsabilidade ambiental.</p>
                             <p class="card-text"><strong>R$ 69,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/camisa_polo_algodao.png" class="card-img-top"
-                            alt="Camisa de Algodão Orgânico">
+                        <img src="./img/produtos_img/camisa_polo_algodao.png" id="camisa_polo" class="card-img-top"
+                            alt="Camisa polo de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camisa polo de Algodão Orgânico</h5>
-                            <p class="card-text">Camisa polo básica feita de 100% algodão orgânico.</p>
+                            <p class="card-text">Polo masculina Convicto com tecido 100% algodão. Confortável e elegante, a peça é ideal para combinações com jeans. O tecido é de algodão cultivado colorido, evitando o uso de corantes, diminuindo o desperdício de água. Abertura lateral (barra) Composição 100% Algodão Manga Curta</p>
                             <p class="card-text"><strong>R$ 89,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Produto 2 -->
-            <h2 class="text-center sm-4">Higiene</h2>
+           
             <div class="row">
-                <div class="col-sm-4 sm-4">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/escova_bambu.webp" class="card-img-top"
+                        <img src="./img/produtos_img/escova_bambu.webp" id="escova_bambu" class="card-img-top"
                             alt="Escova de Dentes de Bambu">
                         <div class="card-body">
                             <h5 class="card-title">Escova de Dentes de Bambu</h5>
-                            <p class="card-text">Escova de dentes com cabo de bambu biodegradável e cerdas de carvão
-                                ativado.</p>
+                            <p class="card-text">Com cabo de bambu biodegradável e cerdas de carvão ativado, essa escova de dentes é uma escolha ecológica que garante higiene bucal sem agredir o meio ambiente.</p>
                             <p class="card-text"><strong>R$ 14,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/shampoo_solido.jpg" class="card-img-top"
+                        <img src="./img/produtos_img/shampoo_solido.jpg" id="shampoo" class="card-img-top"
                             alt="Shampoo Sólido Natural">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido Natural</h5>
-                            <p class="card-text">Shampoo sólido feito com ingredientes naturais e sem parabenos.</p>
+                            <p class="card-text">Produzido com ingredientes naturais e sem parabenos, o shampoo sólido é embalado de forma ecológica e ajuda a reduzir o desperdício de plástico. Cabelos saudáveis e o planeta agradecem.</p>
                             <p class="card-text"><strong>R$ 29,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/cotonete_bambu.webp" class="card-img-top"
+                        <img src="./img/produtos_img/cotonete_bambu.webp" id="cotonete" class="card-img-top"
                             alt="Cotonete de bambu">
                         <div class="card-body">
                             <h5 class="card-title">Cotonete de bambu</h5>
-                            <p class="card-text">Shampoo sólido feito com ingredientes naturais e sem parabenos.</p>
+                            <p class="card-text">Os cotonetes de bambu são uma alternativa ecológica e sustentável aos tradicionais cotonetes de plástico. Com hastes feitas de bambu, um recurso natural renovável e biodegradável, esses cotonetes oferecem a mesma eficácia na limpeza, mas com um impacto ambiental muito menor. As pontas são feitas de algodão 100% orgânico, garantindo suavidade e segurança no uso.</p>
                             <p class="card-text"><strong>R$ 7,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Produto 3 -->
-            <h2 class="text-center sm-4">Casa</h2>
+            
             <div class="row">
-                <div class="col-sm-4 sm-4">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/sacola_ecologica.jpg" class="card-img-top"
+                        <img src="./img/produtos_img/sacola_ecologica.jpg" id="sacola" class="card-img-top"
                             alt="Sacola Ecológica Reutilizável">
                         <div class="card-body">
                             <h5 class="card-title">Sacola Ecológica Reutilizável</h5>
-                            <p class="card-text">Sacola feita de fibras recicladas, perfeita para substituir sacolas
-                                plásticas.</p>
+                            <p class="card-text">Fabricada com fibras recicladas, essa sacola ecológica é perfeita para substituir as descartáveis no dia a dia. Resistente e sustentável, é ideal para suas compras.</p>
                             <p class="card-text"><strong>R$ 19,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/garrafa_agua.webp" class="card-img-top"
+                        <img src="./img/produtos_img/garrafa_agua.webp" id="garrafa" class="card-img-top"
                             alt="Garrafa de Água em Aço Inoxidável">
                         <div class="card-body">
                             <h5 class="card-title">Garrafa de Água em Aço Inoxidável</h5>
-                            <p class="card-text">Garrafa térmica de aço inoxidável com capacidade de 750ml.</p>
+                            <p class="card-text">Essa garrafa térmica de aço inoxidável mantém suas bebidas frias ou quentes por horas. É durável, reutilizável e uma excelente alternativa às garrafas de plástico descartáveis.</p>
                             <p class="card-text"><strong>R$ 79,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
-            
-                <div class="col-sm-4 sm-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
                     <div class="card">
-                        <img src="./img/produtos_img/vela_organica.webp" class="card-img-top"
+                        <img src="./img/produtos_img/vela_organica.webp" id="vela" class="card-img-top"
                             alt="Vela Aromática de Soja">
                         <div class="card-body">
                             <h5 class="card-title">Vela Aromática de Soja</h5>
-                            <p class="card-text">Vela feita de cera de soja, com fragrância suave de lavanda.</p>
+                            <p class="card-text">Feita de cera de soja, uma alternativa natural e renovável, essa vela aromática oferece fragrâncias suaves e relaxantes, como a lavanda, sem liberar toxinas no ambiente</p>
                             <p class="card-text"><strong>R$ 34,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>

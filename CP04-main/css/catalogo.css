@@ -3,6 +3,7 @@ header{
 }
 
 header nav img{
+    padding: 10px;
     height: 60px;
 }
 
@@ -19,6 +20,10 @@ footer{
     align-items: center;
     justify-content: space-around;
 }
+h5 a{
+    text-decoration: none;
+    color: black;
+}
 
 footer a{
     text-decoration: none;
@@ -27,11 +32,36 @@ footer a{
 .imagen{
     height: 30px;
 }
+.imagen_ecologica{
+    height: 360px;
+}
+
+.bordas{
+    padding: 10px;
+    border: 1px solid black;
+}
 
 .grid{
     grid-template-columns: 100px auto 100px;
-    grid-template-rows: repeat(3, 4fr);
-    
+    grid-template-rows: repeat(6, 100px);
     grid-template-areas: 
     ". footer .";
+}
+
+@media screen and (min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(4, 300px);
+        grid-template-areas: 
+        ". footer footer .";
+       
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid{
+        grid-template-columns: repeat(6, 600px);
+        grid-template-areas: 
+        ". footer footer footer footer .";
+       
+    }
 }
