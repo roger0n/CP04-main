@@ -26,7 +26,7 @@ footer a{
     color: black;
 }
 .imagen{
-    height: 30px;
+    height: 15px;
 }
 
 .grid{
@@ -43,6 +43,9 @@ footer a{
         ". footer footer .";
        
     }
+    .imagen{
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -51,5 +54,8 @@ footer a{
         grid-template-areas: 
         ". footer footer footer footer .";
        
+    }
+    .imagen{
+        height: 30px;
     }
 }

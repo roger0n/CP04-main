@@ -30,10 +30,10 @@ footer a{
     color: black;
 }
 .imagen{
-    height: 30px;
+    height: 15px;
 }
 .imagen_ecologica{
-    height: 360px;
+    height: 150px;
 }
 
 .bordas{
@@ -55,6 +55,12 @@ footer a{
         ". footer footer .";
        
     }
+    .imagen_ecologica{
+        height: 360px;
+    }
+    .imagen{
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -63,5 +69,11 @@ footer a{
         grid-template-areas: 
         ". footer footer footer footer .";
        
+    }
+    .imagen_ecologica{
+        height: 360px;
+    }
+    .imagen{
+        height: 30px;
     }
 }

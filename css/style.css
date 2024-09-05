@@ -37,10 +37,11 @@ footer{
 
 footer a{
     text-decoration: none;
+    font-size: small;
     color: black;
 }
 .imagen{
-    height: 30px;
+    height: 15px;
 }
 
 .grid{
@@ -49,4 +50,28 @@ footer a{
     
     grid-template-areas: 
     ". footer .";
+}
+
+@media screen and (min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(4, 300px);
+        grid-template-areas: 
+        ". footer footer .";
+       
+    }
+    .imagen{
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid{
+        grid-template-columns: repeat(6, 600px);
+        grid-template-areas: 
+        ". footer footer footer footer .";
+       
+    }
+    .imagen{
+        height: 30px;
+    }
 }
