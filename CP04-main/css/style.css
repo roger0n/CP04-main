@@ -42,7 +42,7 @@ footer a{
     height: 30px;
 }
 
-.grid-footer{
+.grid{
     grid-template-columns: 100px auto 100px;
     grid-template-rows: repeat(3, 4fr);
     

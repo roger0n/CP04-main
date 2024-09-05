@@ -28,7 +28,7 @@
                         <a class="nav-link" href="catalogo.html">Catálogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="page1.html"></a>
+                        <a class="nav-link" href="produtos.html">Produtos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contato.html">Contato</a>
@@ -42,11 +42,80 @@
         </nav>
     </header>
 
+    <div class="container" class="col-sm">
+        <h3>Todos os nossos produtos</h3>
+        <div class="row">
+          <!-- Sidebar com os filtros -->
+          <div class="col-sm-6 ju">
+            <h4>Filtrar por:</h4>
+    
+            <!-- Filtro por Preço -->
+            <div class="mb-4">
+              <h5>Preço</h5>
+              <select class="form-select" aria-label="Filtrar por preço">
+                <option selected>Selecione o preço</option>
+                <option value="1">Até R$100</option>
+                <option value="2">R$100 - R$500</option>
+                <option value="3">R$500 - R$1000</option>
+                <option value="4">Acima de R$1000</option>
+              </select>
+            </div>
+    
+            <!-- Filtro por Tipo de Produto -->
+            <div class="mb-4">
+              <h5>Tipo de Produto</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="productType1">
+                <label class="form-check-label" for="productType1">
+                  Eletrônicos
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="productType2">
+                <label class="form-check-label" for="productType2">
+                  Vestuário
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="productType3">
+                <label class="form-check-label" for="productType3">
+                  Móveis
+                </label>
+              </div>
+            </div>
+    
+            <!-- Filtro por Marca -->
+            <div class="mb-4">
+              <h5>Marca</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand1">
+                <label class="form-check-label" for="brand1">
+                  Marca A
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand2">
+                <label class="form-check-label" for="brand2">
+                  Marca B
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand3">
+                <label class="form-check-label" for="brand3">
+                  Marca C
+                </label>
+              </div>
+            </div>
+    
+            <button class="btn btn-primary w-100">Aplicar Filtros</button>
+          </div>
+        </div>
+    </div>
 
     <main>
         <!-- Seção de Produtos -->
         <section class="container my-5">
-            <h2 class="text-center sm-4">Roupas</h2>
+            
             <div class="row">
                 <!-- Produto 1 -->
                 <div class="col-sm-4 sm-4">
@@ -55,7 +124,6 @@
                             alt="Camisa de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camiseta de Algodão Orgânico</h5>
-                            <p class="card-text">Camiseta básica feita de 100% algodão orgânico.</p>
                             <p class="card-text"><strong>R$ 59,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -67,7 +135,6 @@
                             alt="Camisa de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camisa de Algodão Orgânico</h5>
-                            <p class="card-text">Camisa básica feita de 100% algodão orgânico.</p>
                             <p class="card-text"><strong>R$ 69,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -80,15 +147,14 @@
                             alt="Camisa de Algodão Orgânico">
                         <div class="card-body">
                             <h5 class="card-title">Camisa polo de Algodão Orgânico</h5>
-                            <p class="card-text">Camisa polo básica feita de 100% algodão orgânico.</p>
                             <p class="card-text"><strong>R$ 89,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Produto 2 -->
-            <h2 class="text-center sm-4">Higiene</h2>
+            
+
             <div class="row">
                 <div class="col-sm-4 sm-4">
                     <div class="card">
@@ -96,8 +162,6 @@
                             alt="Escova de Dentes de Bambu">
                         <div class="card-body">
                             <h5 class="card-title">Escova de Dentes de Bambu</h5>
-                            <p class="card-text">Escova de dentes com cabo de bambu biodegradável e cerdas de carvão
-                                ativado.</p>
                             <p class="card-text"><strong>R$ 14,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -110,7 +174,7 @@
                             alt="Shampoo Sólido Natural">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido Natural</h5>
-                            <p class="card-text">Shampoo sólido feito com ingredientes naturais e sem parabenos.</p>
+
                             <p class="card-text"><strong>R$ 29,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -122,7 +186,6 @@
                             alt="Cotonete de bambu">
                         <div class="card-body">
                             <h5 class="card-title">Cotonete de bambu</h5>
-                            <p class="card-text">Shampoo sólido feito com ingredientes naturais e sem parabenos.</p>
                             <p class="card-text"><strong>R$ 7,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -130,7 +193,7 @@
                 </div>
             </div>
             <!-- Produto 3 -->
-            <h2 class="text-center sm-4">Casa</h2>
+    
             <div class="row">
                 <div class="col-sm-4 sm-4">
                     <div class="card">
@@ -138,8 +201,6 @@
                             alt="Sacola Ecológica Reutilizável">
                         <div class="card-body">
                             <h5 class="card-title">Sacola Ecológica Reutilizável</h5>
-                            <p class="card-text">Sacola feita de fibras recicladas, perfeita para substituir sacolas
-                                plásticas.</p>
                             <p class="card-text"><strong>R$ 19,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -152,7 +213,6 @@
                             alt="Garrafa de Água em Aço Inoxidável">
                         <div class="card-body">
                             <h5 class="card-title">Garrafa de Água em Aço Inoxidável</h5>
-                            <p class="card-text">Garrafa térmica de aço inoxidável com capacidade de 750ml.</p>
                             <p class="card-text"><strong>R$ 79,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>
@@ -165,7 +225,6 @@
                             alt="Vela Aromática de Soja">
                         <div class="card-body">
                             <h5 class="card-title">Vela Aromática de Soja</h5>
-                            <p class="card-text">Vela feita de cera de soja, com fragrância suave de lavanda.</p>
                             <p class="card-text"><strong>R$ 34,90</strong></p>
                             <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
                         </div>

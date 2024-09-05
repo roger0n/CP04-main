@@ -32,25 +32,25 @@ footer a{
 .main{
     grid-area: main;
 }
-
+.borda{
+    border: 1px solid black;
+}
 
 .grid{
     grid-template-columns: 100px auto 100px;
     grid-template-rows: repeat(6, 100px);
     gap: 10px;
     grid-template-areas:
-    "main main ."
-    "none none none" 
+    "main main ." 
     ". footer .";
 }
 
 @media screen and (min-width: 768px) {
     .grid{
         grid-template-columns: repeat(4, 300px);
+        gap: 10px;
         grid-template-areas: 
-        
         "main main . ."
-        "none none none none"
         ". footer footer .";
        
     }
@@ -59,10 +59,9 @@ footer a{
 @media screen and (min-width: 1024px) {
     .grid{
         grid-template-columns: repeat(6, 600px);
+        gap: 10px;
         grid-template-areas: 
-        
-        "main main main main . ."
-        "none none none none"
+        ". main main main . ."
         ". footer footer footer footer .";
        
     }
